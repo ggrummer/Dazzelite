@@ -1,0 +1,8 @@
+#create_clock -name {clks_0/clkfastint} -period 125 [get_nets clks_0/clkfastint]
+create_clock -name {clkfast} -period 125 [get_nets clkfast]
+#create_clock -name {clks_0/clk8int} -period 1250 [get_nets clks_0/clk8int]
+create_clock -name {clk8} -period 1250 [get_nets clk8]
+create_clock -name {osc12} -period 83.3333333333333 [get_nets osc12]
+set_false_path -from [get_clocks clk8] -to [get_clocks clkfast]
+set_false_path -from [get_clocks clkfast] -to [get_nets pll_48]
+set_false_path -from [get_clocks clk8] -to [get_nets pll_48]

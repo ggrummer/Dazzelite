@@ -1,0 +1,107 @@
+WARNING: missing driver HDL files.
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect0\rtl\instr_dpram_sect0_bb.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect0\instr_dpram_sect0.cfg 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect0\misc\instr_dpram_sect0_tmpl.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect0\misc\instr_dpram_sect0_tmpl.vhd 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect0\rtl\instr_dpram_sect0.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect0\constraints\instr_dpram_sect0.ldc 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect0\testbench\dut_params.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect0\testbench\dut_inst.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect0\design.xml 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect0\component.xml 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect0\instr_dpram_sect0.ipx 
+WARNING: missing driver HDL files.
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect1\rtl\instr_dpram_sect1_bb.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect1\instr_dpram_sect1.cfg 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect1\misc\instr_dpram_sect1_tmpl.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect1\misc\instr_dpram_sect1_tmpl.vhd 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect1\rtl\instr_dpram_sect1.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect1\constraints\instr_dpram_sect1.ldc 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect1\testbench\dut_params.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect1\testbench\dut_inst.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect1\design.xml 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect1\component.xml 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect1\instr_dpram_sect1.ipx 
+WARNING: missing driver HDL files.
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\rtl\instr_dpram_sect2_bb.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\instr_dpram_sect2.cfg 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\misc\instr_dpram_sect2_tmpl.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\misc\instr_dpram_sect2_tmpl.vhd 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\rtl\instr_dpram_sect2.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\constraints\instr_dpram_sect2.ldc 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\testbench\dut_params.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\testbench\dut_inst.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\design.xml 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\component.xml 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\instr_dpram_sect2.ipx 
+WARNING: missing driver HDL files.
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect3\rtl\instr_dpram_sect3_bb.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect3\instr_dpram_sect3.cfg 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect3\misc\instr_dpram_sect3_tmpl.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect3\misc\instr_dpram_sect3_tmpl.vhd 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect3\rtl\instr_dpram_sect3.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect3\constraints\instr_dpram_sect3.ldc 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect3\testbench\dut_params.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect3\testbench\dut_inst.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect3\design.xml 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect3\component.xml 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect3\instr_dpram_sect3.ipx 
+WARNING: missing driver HDL files.
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\rtl\instr_dpram_sect2_bb.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\instr_dpram_sect2.cfg 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\misc\instr_dpram_sect2_tmpl.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\misc\instr_dpram_sect2_tmpl.vhd 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\rtl\instr_dpram_sect2.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\constraints\instr_dpram_sect2.ldc 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\testbench\dut_params.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\testbench\dut_inst.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\design.xml 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\component.xml 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\instr_dpram_sect2.ipx 
+WARNING: missing driver HDL files.
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\rtl\instr_dpram_sect2_bb.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\instr_dpram_sect2.cfg 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\misc\instr_dpram_sect2_tmpl.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\misc\instr_dpram_sect2_tmpl.vhd 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\rtl\instr_dpram_sect2.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\constraints\instr_dpram_sect2.ldc 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\testbench\dut_params.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\testbench\dut_inst.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\design.xml 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\component.xml 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\instr_dpram_sect2.ipx 
+WARNING: missing driver HDL files.
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\rtl\instr_dpram_sect2_bb.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\instr_dpram_sect2.cfg 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\misc\instr_dpram_sect2_tmpl.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\misc\instr_dpram_sect2_tmpl.vhd 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\rtl\instr_dpram_sect2.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\constraints\instr_dpram_sect2.ldc 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\testbench\dut_params.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\testbench\dut_inst.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\design.xml 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\component.xml 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\instr_dpram_sect2.ipx 
+WARNING: missing driver HDL files.
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\rtl\instr_dpram_sect2_bb.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\instr_dpram_sect2.cfg 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\misc\instr_dpram_sect2_tmpl.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\misc\instr_dpram_sect2_tmpl.vhd 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\rtl\instr_dpram_sect2.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\constraints\instr_dpram_sect2.ldc 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\testbench\dut_params.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\testbench\dut_inst.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\design.xml 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\component.xml 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\instr_dpram_sect2.ipx 
+WARNING: missing driver HDL files.
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\rtl\instr_dpram_sect2_bb.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\instr_dpram_sect2.cfg 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\misc\instr_dpram_sect2_tmpl.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\misc\instr_dpram_sect2_tmpl.vhd 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\rtl\instr_dpram_sect2.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\constraints\instr_dpram_sect2.ldc 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\testbench\dut_params.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\testbench\dut_inst.v 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\design.xml 
+Writing C:\Projects\Dazzelite\Dazz12\instr_dpram_sect2\component.xml 

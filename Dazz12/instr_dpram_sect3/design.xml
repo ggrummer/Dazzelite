@@ -1,0 +1,237 @@
+<?xml version="1.0" ?>
+<ipxact:design xmlns:ipxact="http://www.accellera.org/XMLSchema/IPXACT/1685-2014" xmlns:lsccip="http://www.latticesemi.com/XMLSchema/Radiant/ip">
+    <ipxact:vendor>latticesemi.com</ipxact:vendor>
+    <ipxact:library>module</ipxact:library>
+    <ipxact:name>instr_dpram_sect3</ipxact:name>
+    <ipxact:version>1.1.1</ipxact:version>
+    <ipxact:componentInstances>
+        <ipxact:componentInstance>
+            <ipxact:instanceName>lscc_ram_dp_inst</ipxact:instanceName>
+            <ipxact:componentRef library="module" name="ram_dp" vendor="latticesemi.com" version="1.1.1">
+                <ipxact:configurableElementValues>
+                    <ipxact:configurableElementValue referenceId="FAMILY">iCE40UP</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="T_FAMILY">iCE40UP</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="MEM_ID">instr_dpram_sect3</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="MEM_SIZE">32,256</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="WADDR_DEPTH">256</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="WDATA_WIDTH">32</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="RADDR_DEPTH">256</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="RDATA_WIDTH">32</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="Total Memory bits">8192</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="WADDR_WIDTH">8</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="REGMODE">False</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="RADDR_WIDTH">8</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="OUTPUT_CLK_EN">False</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="RESETMODE">sync</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="BYTE_ENABLE">False</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="BYTE_WIDTH">1</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="BYTE_SIZE">8</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="ECC_ENABLE">False</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_MODE">mem_file</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_FILE">misc/burst_instr_dpram_sect3_copy.mem</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_FILE_FORMAT">hex</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="buff_init_file">1</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_00">0x90D090C090B090A09090908090709060905090409030902090109000000050000x0F88088F00C00F000FC00F0F00CF000F00C00F000FC00F0F00CF000F00002000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_01">0x4012120040414030402211004051404040321100405040421080405290F090E00x803F00000000803F803F00000000803F803F0000803F803F0000803F0BBB08C8</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_02">0x30124171400110604171400111004010400216004021401040021400403140200x80010000000000000FFF0FFF00008000800000000000803F803F00000000803F</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_03">0x31323042110031603010315130213142303210803161301131523022108031620x8000800000008000800080008000800080000000800080008000800000008000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_04">0x40104150402031403030313030403121305112003160301031503020314130310x4000400040004000400080008000800080000000400040008000800080008000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_05">0x0000000000000000000020008FF41500414040304130404041204050130041600x0000000000000000000000007000000040004000400040004000400000004000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_06">0x00000000000000000000000000000000000000000000000000000000000000000x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_07">0x00000000000000000000000000000000000000000000000000000000000000000x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_08">0x00000000000000000000000000000000000000000000000000000000000000000x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_09">0x00000000000000000000000000000000000000000000000000000000000000000x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_0A">0x00000000000000000000000000000000000000000000000000000000000000000x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_0B">0x00000000000000000000000000000000000000000000000000000000000000000x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_0C">0x00000000000000000000000000000000000000000000000000000000000000000x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_0D">0x00000000000000000000000000000000000000000000000000000000000000000x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_0E">0x00000000000000000000000000000000000000000000000000000000000000000x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_0F">0x00000000000000000000000000000000000000000000000000000000000000000x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_10">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_11">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_12">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_13">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_14">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_15">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_16">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_17">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_18">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_19">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_1A">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_1B">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_1C">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_1D">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_1E">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_1F">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_20">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_21">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_22">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_23">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_24">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_25">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_26">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_27">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_28">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_29">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_2A">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_2B">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_2C">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_2D">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_2E">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_2F">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_30">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_31">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_32">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_33">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_34">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_35">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_36">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_37">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_38">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_39">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_3A">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_3B">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_3C">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_3D">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_3E">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                    <ipxact:configurableElementValue referenceId="INIT_VALUE_3F">0x0000000000000000000000000000000000000000000000000000000000000000</ipxact:configurableElementValue>
+                </ipxact:configurableElementValues>
+            </ipxact:componentRef>
+        </ipxact:componentInstance>
+    </ipxact:componentInstances>
+    <ipxact:adHocConnections>
+        <ipxact:adHocConnection>
+            <ipxact:name>instr_dpram_sect3.wr_clk_i</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="instr_dpram_sect3" portRef="wr_clk_i"/>
+                <ipxact:externalPortReference portRef="wr_clk_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>instr_dpram_sect3.rd_clk_i</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="instr_dpram_sect3" portRef="rd_clk_i"/>
+                <ipxact:externalPortReference portRef="rd_clk_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>instr_dpram_sect3.rst_i</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="instr_dpram_sect3" portRef="rst_i"/>
+                <ipxact:externalPortReference portRef="rst_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>instr_dpram_sect3.wr_clk_en_i</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="instr_dpram_sect3" portRef="wr_clk_en_i"/>
+                <ipxact:externalPortReference portRef="wr_clk_en_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>instr_dpram_sect3.rd_en_i</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="instr_dpram_sect3" portRef="rd_en_i"/>
+                <ipxact:externalPortReference portRef="rd_en_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>instr_dpram_sect3.rd_clk_en_i</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="instr_dpram_sect3" portRef="rd_clk_en_i"/>
+                <ipxact:externalPortReference portRef="rd_clk_en_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>instr_dpram_sect3.rd_out_clk_en_i</ipxact:name>
+            <ipxact:tiedValue>1'b1</ipxact:tiedValue>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="instr_dpram_sect3" portRef="rd_out_clk_en_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>instr_dpram_sect3.wr_en_i</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="instr_dpram_sect3" portRef="wr_en_i"/>
+                <ipxact:externalPortReference portRef="wr_en_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>instr_dpram_sect3.ben_i</ipxact:name>
+            <ipxact:tiedValue>1'b1</ipxact:tiedValue>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="instr_dpram_sect3" portRef="ben_i"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>instr_dpram_sect3.wr_data_i</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="instr_dpram_sect3" portRef="wr_data_i"/>
+                <ipxact:externalPortReference portRef="wr_data_i">
+                    <ipxact:partSelect>
+                        <ipxact:range>
+                            <ipxact:left>31</ipxact:left>
+                            <ipxact:right>0</ipxact:right>
+                        </ipxact:range>
+                    </ipxact:partSelect>
+                </ipxact:externalPortReference>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>instr_dpram_sect3.wr_addr_i</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="instr_dpram_sect3" portRef="wr_addr_i"/>
+                <ipxact:externalPortReference portRef="wr_addr_i">
+                    <ipxact:partSelect>
+                        <ipxact:range>
+                            <ipxact:left>7</ipxact:left>
+                            <ipxact:right>0</ipxact:right>
+                        </ipxact:range>
+                    </ipxact:partSelect>
+                </ipxact:externalPortReference>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>instr_dpram_sect3.rd_addr_i</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="instr_dpram_sect3" portRef="rd_addr_i"/>
+                <ipxact:externalPortReference portRef="rd_addr_i">
+                    <ipxact:partSelect>
+                        <ipxact:range>
+                            <ipxact:left>7</ipxact:left>
+                            <ipxact:right>0</ipxact:right>
+                        </ipxact:range>
+                    </ipxact:partSelect>
+                </ipxact:externalPortReference>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>instr_dpram_sect3.rd_data_o</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="instr_dpram_sect3" portRef="rd_data_o"/>
+                <ipxact:externalPortReference portRef="rd_data_o">
+                    <ipxact:partSelect>
+                        <ipxact:range>
+                            <ipxact:left>31</ipxact:left>
+                            <ipxact:right>0</ipxact:right>
+                        </ipxact:range>
+                    </ipxact:partSelect>
+                </ipxact:externalPortReference>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>instr_dpram_sect3.one_err_det_o</ipxact:name>
+            <ipxact:tiedValue>open</ipxact:tiedValue>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="instr_dpram_sect3" portRef="one_err_det_o"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>instr_dpram_sect3.two_err_det_o</ipxact:name>
+            <ipxact:tiedValue>open</ipxact:tiedValue>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="instr_dpram_sect3" portRef="two_err_det_o"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+    </ipxact:adHocConnections>
+</ipxact:design>
