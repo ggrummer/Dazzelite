@@ -1,0 +1,14 @@
+Partlist exported from C:/Projects/Dazzelite/EAGLE/DazzeLiteSch.sch at 2/8/2021 10:02 AM
+
+Qty Value        Device        Package    Parts                             Description                                         MF MPN      OC_FARNELL OC_NEWARK POPULARITY SPICEPREFIX TP_SIGNAL_NAME
+3   0.1 uF       C2,5-3        C2.5-3     C1, C4, C5                        CAPACITOR                                                                            38                                   
+2   1-1825027-1  31-XX         B3F-31XX   S1, S3                            OMRON SWITCH                                           B3F-3100 959704     36M3582   0                                    
+2   100 uF       C2.5/6        C2.5-6     C2, C3                            CAPACITOR                                                                            4                                    
+1   1N5817       DIODE-DO41-10 DO41-10    D1                                DIODE                                                                                2                                    
+1   36K          R-US_0204/7   0204/7     R1                                RESISTOR, American symbol                                                            48         R                         
+1   62K          R-US_0204/7   0204/7     R2                                RESISTOR, American symbol                                                            48         R                         
+1   74AHCT125N   74AHCT125N    DIL14      U2                                Quad bus BUFFER, 3-state                                                                                                  
+1   EG2219       EG2219        DPDT157    S2                                SWITCH-DPDT                                                                                                               
+7   PTR1PAD1-13  PTR1PAD1-13   P1-13      TP1, TP2, TP3, TP4, TP5, TP6, TP7 TEST PIN                                                                             2                                    
+1   R-78C5.0-1.0 R-78C5.0-1.0  SIP3       DC1                               INNOLINE DC/DC-Converter 1.0 AMP SIP3 Single Output                                  0                                    
+1   UPDUINO3P0   UPDUINO3P0    UPDUINO3P0 U1                                UPduino v3.0 Board                                                                                                        

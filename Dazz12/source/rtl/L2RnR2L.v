@@ -509,79 +509,44 @@ module L2RnR2L(clk8,reset8,frame_busy,cmd_inst,cmd_data,neo_size,sizeplus1,
          begin
             if (calc_color)
                begin
-                  case (random[11:9])
-                     3'b000:
+                  case (random[11:10])
+                     3'b00:
                         begin
                            nx_rite_blu <= 4'h0;
                            nx_rite_grn <= 4'h0;
                            nx_rite_red <= 4'hF;
-                           nx_left_blu <= 4'hF;
-                           nx_left_grn <= 4'h0;
+                           nx_left_blu <= 4'h0;
+                           nx_left_grn <= 4'h8;
                            nx_left_red <= 4'h0;
                         end
-                     3'b001:
+                     3'b01:
                         begin
                            nx_rite_blu <= 4'h0;
                            nx_rite_grn <= 4'h0;
                            nx_rite_red <= 4'hF;
-                           nx_left_blu <= 4'h8; // changed from h7 on 11_19_20
+                           nx_left_blu <= 4'h8; 
                            nx_left_grn <= 4'h0;
                            nx_left_red <= 4'h0;
                         end
-                     3'b010:
+                     3'b10:
                         begin
-                           nx_rite_blu <= 4'h8; // changed from h7 on 11_19_20
+                           nx_rite_blu <= 4'h8;
                            nx_rite_grn <= 4'h0;
                            nx_rite_red <= 4'hF;
-                           nx_left_blu <= 4'h8; // changed from h7 on 11_19_20
-                           nx_left_grn <= 4'h0;
-                           nx_left_red <= 4'h0;
+                           nx_left_blu <= 4'h0;
+                           nx_left_grn <= 4'h8;
+                           nx_left_red <= 4'hF;
                         end
-                     3'b011:
+                     3'b11:
                         begin
                            nx_rite_blu <= 4'h0;
                            nx_rite_grn <= 4'hF;
                            nx_rite_red <= 4'h0;
-                           nx_left_blu <= 4'hF;
+                           nx_left_blu <= 4'h8;
                            nx_left_grn <= 4'h0;
                            nx_left_red <= 4'h0;
                         end
-                     3'b100:
-                        begin
-                           nx_rite_blu <= 4'h0;
-                           nx_rite_grn <= 4'hF;
-                           nx_rite_red <= 4'h0;
-                           nx_left_blu <= 4'h0;
-                           nx_left_grn <= 4'h0;
-                           nx_left_red <= 4'hF;
-                        end
-                     3'b101:
-                        begin
-                           nx_rite_blu <= 4'h0;
-                           nx_rite_grn <= 4'h6; // changed from h5 on 11_19_20
-                           nx_rite_red <= 4'h0;
-                           nx_left_blu <= 4'h0;
-                           nx_left_grn <= 4'h0;
-                           nx_left_red <= 4'hF;
-                        end
-                     3'b110:
-                        begin
-                           nx_rite_blu <= 4'h0;
-                           nx_rite_grn <= 4'h6; // changed from h7 on 1_24_15 and h5 on 11_19_20
-                           nx_rite_red <= 4'hA; // changed from h7 on 11_14_20 and h9 on 11_19_20
-                           nx_left_blu <= 4'h0;
-                           nx_left_grn <= 4'h0;
-                           nx_left_red <= 4'hF;
-                        end
-                     3'b111:
-                        begin
-                           nx_rite_blu <= 4'h8; // changed from h7 on 11_19_20
-                           nx_rite_grn <= 4'h0;
-                           nx_rite_red <= 4'h0;
-                           nx_left_blu <= 4'h0;
-                           nx_left_grn <= 4'h8; // changed from h7 on 11_19_20
-                           nx_left_red <= 4'h0;
-                        end
+                     
                   endcase
                end
          end

@@ -98,22 +98,79 @@ begin
       wait until rising_edge(clk8tb);
       wait for 2 ns;
       wait for 5 us;
-      -- send lots of chase commands
-      for I in 0 to 200 loop
       
+		-- send chase commands with an increment of 1
+      for I in 0 to 70 loop
          cmd_inst <= x"5"; -- chase instruction
          cmd_data <= x"0001000"; -- increment chase
          wait for 2.5 us;
          cmd_inst <= x"F"; -- null instruction
          cmd_data <= x"0000000"; 
          wait for 10 us;
-      
+      end loop;
+		
+		cmd_inst <= x"5"; -- chase instruction
+		cmd_data <= x"0002000"; -- zero offset
+		wait for 2.5 us;
+		cmd_inst <= x"F"; -- null instruction
+		cmd_data <= x"0000000"; 
+		wait for 20 us;
+		
+		-- send chase commands with an decrement of -1
+      for I in 0 to 70 loop
+         cmd_inst <= x"5"; -- chase instruction
+         cmd_data <= x"0000000"; -- decrement chase
+         wait for 2.5 us;
+         cmd_inst <= x"F"; -- null instruction
+         cmd_data <= x"0000000"; 
+         wait for 10 us;
+      end loop;
+		
+		cmd_inst <= x"5"; -- chase instruction
+		cmd_data <= x"0002000"; -- zero offset
+		wait for 2.5 us;
+		cmd_inst <= x"F"; -- null instruction
+		cmd_data <= x"0000000"; 
+		wait for 20 us;
+		
+		-- send chase commands with an increment of 4
+      for I in 0 to 70 loop
+         cmd_inst <= x"5"; -- chase instruction
+         cmd_data <= x"0401000"; -- increment chase
+         wait for 2.5 us;
+         cmd_inst <= x"F"; -- null instruction
+         cmd_data <= x"0000000"; 
+			wait for 10 us;
       end loop;
       
+		cmd_inst <= x"5"; -- chase instruction
+		cmd_data <= x"0002000"; -- zero offset
+		wait for 2.5 us;
+		cmd_inst <= x"F"; -- null instruction
+		cmd_data <= x"0000000"; 
+		wait for 20 us;
+		
+		-- send chase commands with an decrement of 4
+      for I in 0 to 70 loop
+         cmd_inst <= x"5"; -- chase instruction
+         cmd_data <= x"0400000"; -- decrement chase
+         wait for 2.5 us;
+         cmd_inst <= x"F"; -- null instruction
+         cmd_data <= x"0000000"; 
+			wait for 10 us;
+      end loop;
+      
+		cmd_inst <= x"5"; -- chase instruction
+		cmd_data <= x"0002000"; -- zero offset
+		wait for 2.5 us;
+		cmd_inst <= x"F"; -- null instruction
+		cmd_data <= x"0000000"; 
+		wait for 20 us;
+		
       wait for 20 us;
       -- end test
       assert false
-         report "Chase Qty of 50 Lites Simulation Done " & cr
+         report "Chase Simulation Done " & cr
          severity failure;
       wait;
    end process;

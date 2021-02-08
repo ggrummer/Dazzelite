@@ -28,7 +28,6 @@ architecture Behavioral of dazz_neo_main_tb is
          clk8        	: in STD_LOGIC;
 			clkfast     	: in STD_LOGIC;
 			reset8      	: in STD_LOGIC;
-			pwr_off			: in STD_LOGIC;
 			ce1         	: in STD_LOGIC;
 			frame_start 	: in STD_LOGIC;
 			frame_data  	: in STD_LOGIC_VECTOR (25 downto 0);
@@ -48,7 +47,6 @@ architecture Behavioral of dazz_neo_main_tb is
    signal clk8        : std_logic;
    signal clkfast     : std_logic;
    signal reset8      : std_logic;
-	signal pwr_off     : std_logic;
    signal ce1         : std_logic;
    signal frame_start : std_logic;
    signal frame_data  : std_logic_VECTOR (25 downto 0);
@@ -65,7 +63,6 @@ begin
          clk8        	=> clk8,
          clkfast     	=> clkfast,
          reset8      	=> reset8,
-			pwr_off			=> pwr_off,
          ce1         	=> ce1,
          frame_start 	=> frame_start,
          frame_data  	=> frame_data,
@@ -131,7 +128,6 @@ begin
       frame_start  <= '0';
       frame_data   <= "00" & x"000000";
       brite_sel_n  <= '1';
-		pwr_off		 <= '0';
       wait for 6 us;
       wait until rising_edge(clk8tb);
       wait for 2 ns;
