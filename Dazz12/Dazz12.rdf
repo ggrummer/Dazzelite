@@ -123,6 +123,9 @@
         <Source name="source/rtl/uart_rx.vhd" type="VHDL" type_short="VHDL">
             <Options/>
         </Source>
+        <Source name="ChaseStepSim/ChaseStepSim.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
         <Source name="Dazz12sim/Dazz12sim.spf" type="Simulation Project File" type_short="SPF">
             <Options/>
         </Source>
