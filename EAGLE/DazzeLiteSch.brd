@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -174,35 +174,6 @@ INPUT</text>
 </package3d>
 </packages3d>
 </library>
-<library name="dc-dc-converter" urn="urn:adsk.eagle:library:208">
-<description>&lt;b&gt;DC-DC Converters&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SIP3" urn="urn:adsk.eagle:footprint:12302/1" library_version="2">
-<description>&lt;b&gt;INNOLINE DC/DC-Converter&lt;/b&gt; 1.0 AMP SIP3 Single Output&lt;p&gt;
-Source: &lt;a href="http://www.mikrocontroller.net/attachment/150645/157764-da-01-en-DC_DC_WANDLER_R_78C5_0_1_0.pdf"&gt; Data sheet &lt;/a&gt;</description>
-<pad name="1" x="-2.54" y="0" drill="1" diameter="1.6764"/>
-<pad name="2" x="0" y="0" drill="1" diameter="1.6764"/>
-<pad name="3" x="2.54" y="0" drill="1" diameter="1.6764"/>
-<wire x1="-5.6968" y1="-1.9" x2="5.6968" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="5.6968" y1="-1.9" x2="5.6968" y2="6.44" width="0.2032" layer="21"/>
-<wire x1="5.6968" y1="6.44" x2="-5.6968" y2="6.44" width="0.2032" layer="21"/>
-<wire x1="-5.6968" y1="6.44" x2="-5.6968" y2="-1.9" width="0.2032" layer="21"/>
-<text x="-5.715" y="-3.81" size="1.27" layer="25">&gt;NAME</text>
-<text x="-5.08" y="2.54" size="1.27" layer="27">&gt;VALUE</text>
-<circle x="-5.08" y="-1.27" radius="0.406109375" width="0" layer="21"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="SIP3" urn="urn:adsk.eagle:package:12318/1" type="box" library_version="2">
-<description>INNOLINE DC/DC-Converter 1.0 AMP SIP3 Single Output
-Source:  Data sheet </description>
-<packageinstances>
-<packageinstance name="SIP3"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 <library name="testpad" urn="urn:adsk.eagle:library:385">
 <description>&lt;b&gt;Test Pins/Pads&lt;/b&gt;&lt;p&gt;
 Cream on SMD OFF.&lt;br&gt;
@@ -344,68 +315,21 @@ Distributor: &lt;a href ="https://www.digikey.com"&gt; Digi-Key&lt;/a&gt;</descr
 <pad name="10" x="-5.9999875" y="2.99999375" drill="1.199996875" shape="octagon"/>
 <wire x1="-3.81" y1="12.2428" x2="1.27" y2="12.2428" width="0.127" layer="21"/>
 </package>
-</packages>
-<packages3d>
-<package3d name="DIL14" urn="urn:adsk.eagle:package:16407/2" type="model">
-<description>Dual In Line Package</description>
-<packageinstances>
-<packageinstance name="DIL14"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
-<library name="diode" urn="urn:adsk.eagle:library:210">
-<description>&lt;b&gt;Diodes&lt;/b&gt;&lt;p&gt;
-Based on the following sources:
-&lt;ul&gt;
-&lt;li&gt;Motorola : www.onsemi.com
-&lt;li&gt;Fairchild : www.fairchildsemi.com
-&lt;li&gt;Philips : www.semiconductors.com
-&lt;li&gt;Vishay : www.vishay.de
-&lt;/ul&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="DO41-10" urn="urn:adsk.eagle:footprint:43094/1" library_version="8">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-diameter 2.54 mm, horizontal, grid 10.16 mm</description>
-<wire x1="2.032" y1="-1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="-1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="0" x2="4.064" y2="0" width="0.762" layer="51"/>
-<wire x1="-5.08" y1="0" x2="-4.064" y2="0" width="0.762" layer="51"/>
-<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<pad name="A" x="5.08" y="0" drill="1.1176"/>
-<pad name="C" x="-5.08" y="0" drill="1.1176"/>
-<text x="-2.032" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.032" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-1.651" y1="-1.27" x2="-1.143" y2="1.27" layer="21"/>
-<rectangle x1="2.032" y1="-0.381" x2="3.937" y2="0.381" layer="21"/>
-<rectangle x1="-3.937" y1="-0.381" x2="-2.032" y2="0.381" layer="21"/>
+<package name="SIP3" urn="urn:adsk.eagle:footprint:12302/1" locally_modified="yes">
+<description>&lt;b&gt;INNOLINE DC/DC-Converter&lt;/b&gt; 1.0 AMP SIP3 Single Output&lt;p&gt;</description>
+<pad name="1" x="-2.54" y="0" drill="1" diameter="1.6764"/>
+<pad name="2" x="0" y="0" drill="1" diameter="1.6764"/>
+<pad name="3" x="2.54" y="0" drill="1" diameter="1.6764"/>
+<wire x1="-5.6968" y1="-1.9" x2="5.6968" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="5.6968" y1="-1.9" x2="5.6968" y2="6.44" width="0.2032" layer="21"/>
+<wire x1="5.6968" y1="6.44" x2="-5.6968" y2="6.44" width="0.2032" layer="21"/>
+<wire x1="-5.6968" y1="6.44" x2="-5.6968" y2="-1.9" width="0.2032" layer="21"/>
+<text x="-5.715" y="-3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.08" y="2.54" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="-5.08" y="-1.27" radius="0.406109375" width="0" layer="21"/>
 </package>
-</packages>
-<packages3d>
-<package3d name="DO41-10" urn="urn:adsk.eagle:package:43336/1" type="box" library_version="8">
-<description>DIODE
-diameter 2.54 mm, horizontal, grid 10.16 mm</description>
-<packageinstances>
-<packageinstance name="DO41-10"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
-<library name="switch-omron" urn="urn:adsk.eagle:library:377">
-<description>&lt;b&gt;Omron Switches&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="B3F-31XX" urn="urn:adsk.eagle:footprint:27478/1" library_version="3">
-<description>&lt;b&gt;OMRON SWITCH&lt;/b&gt;</description>
+<package name="B3F-31XX" urn="urn:adsk.eagle:footprint:27478/1" locally_modified="yes">
+<description>&lt;b&gt;TI SWITCH&lt;/b&gt;</description>
 <wire x1="3.683" y1="2.667" x2="3.683" y2="0" width="0.1524" layer="51"/>
 <wire x1="3.683" y1="0" x2="3.683" y2="-3.556" width="0.1524" layer="21"/>
 <wire x1="3.683" y1="-3.556" x2="2.54" y2="-3.556" width="0.1524" layer="21"/>
@@ -455,19 +379,78 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <wire x1="3.429" y1="-2.032" x2="3.429" y2="-3.302" width="0.1524" layer="21"/>
 <wire x1="3.429" y1="-0.508" x2="3.429" y2="-2.032" width="0.1524" layer="51"/>
 <wire x1="3.429" y1="-0.508" x2="3.429" y2="0" width="0.1524" layer="21"/>
-<pad name="1" x="-2.2606" y="-1.2446" drill="1.016" shape="octagon"/>
-<pad name="2" x="2.2606" y="-1.2446" drill="1.016" shape="octagon"/>
-<pad name="3" x="-3.5052" y="1.2446" drill="1.4986" diameter="2.159"/>
-<pad name="4" x="3.5052" y="1.2446" drill="1.4986" diameter="2.159"/>
+<pad name="1" x="-2.2606" y="-1.2446" drill="1.016" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="2.2606" y="-1.2446" drill="1.016" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="-3.5052" y="1.2446" drill="1.4986"/>
+<pad name="4" x="3.5052" y="1.2446" drill="1.4986"/>
 <text x="-2.54" y="2.54" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.683" y="-5.969" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="B3F-31XX" urn="urn:adsk.eagle:package:27487/1" type="box" library_version="3">
+<package3d name="DIL14" urn="urn:adsk.eagle:package:16407/2" type="model">
+<description>Dual In Line Package</description>
+<packageinstances>
+<packageinstance name="DIL14"/>
+</packageinstances>
+</package3d>
+<package3d name="SIP3" urn="urn:adsk.eagle:package:12318/1" type="box">
+<description>INNOLINE DC/DC-Converter 1.0 AMP SIP3 Single Output
+Source:  Data sheet </description>
+<packageinstances>
+<packageinstance name="SIP3"/>
+</packageinstances>
+</package3d>
+<package3d name="B3F-31XX" urn="urn:adsk.eagle:package:27487/1" type="box">
 <description>OMRON SWITCH</description>
 <packageinstances>
 <packageinstance name="B3F-31XX"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="diode" urn="urn:adsk.eagle:library:210">
+<description>&lt;b&gt;Diodes&lt;/b&gt;&lt;p&gt;
+Based on the following sources:
+&lt;ul&gt;
+&lt;li&gt;Motorola : www.onsemi.com
+&lt;li&gt;Fairchild : www.fairchildsemi.com
+&lt;li&gt;Philips : www.semiconductors.com
+&lt;li&gt;Vishay : www.vishay.de
+&lt;/ul&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="DO41-10" urn="urn:adsk.eagle:footprint:43094/1" library_version="8">
+<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
+diameter 2.54 mm, horizontal, grid 10.16 mm</description>
+<wire x1="2.032" y1="-1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="-1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0" x2="4.064" y2="0" width="0.762" layer="51"/>
+<wire x1="-5.08" y1="0" x2="-4.064" y2="0" width="0.762" layer="51"/>
+<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="A" x="5.08" y="0" drill="1.1176"/>
+<pad name="C" x="-5.08" y="0" drill="1.1176"/>
+<text x="-2.032" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.032" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-1.27" x2="-1.143" y2="1.27" layer="21"/>
+<rectangle x1="2.032" y1="-0.381" x2="3.937" y2="0.381" layer="21"/>
+<rectangle x1="-3.937" y1="-0.381" x2="-2.032" y2="0.381" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="DO41-10" urn="urn:adsk.eagle:package:43336/1" type="box" library_version="8">
+<description>DIODE
+diameter 2.54 mm, horizontal, grid 10.16 mm</description>
+<packageinstances>
+<packageinstance name="DO41-10"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1770,9 +1753,9 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="POPULARITY" value="38" x="57.658" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="59.309" y="13.208" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="DC1" library="dc-dc-converter" library_urn="urn:adsk.eagle:library:208" package="SIP3" package3d_urn="urn:adsk.eagle:package:12318/1" value="R-78C5.0-1.0" x="10.033" y="36.322" smashed="yes" rot="R90">
+<element name="DC1" library="StarLiteLib" package="SIP3" package3d_urn="urn:adsk.eagle:package:12318/1" value="TSR_1-2450" x="10.033" y="36.322" smashed="yes" rot="R90">
 <attribute name="NAME" x="2.667" y="34.671" size="1.27" layer="25" rot="R90"/>
-<attribute name="POPULARITY" value="0" x="10.033" y="36.322" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="" x="10.033" y="36.322" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="7.493" y="31.242" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-13" package3d_urn="urn:adsk.eagle:package:27946/1" value="PTR1PAD1-13" x="6.35" y="57.15" smashed="yes">
@@ -1826,15 +1809,6 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="POPULARITY" value="2" x="11.43" y="45.212" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="13.462" y="48.006" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" package="B3F-31XX" package3d_urn="urn:adsk.eagle:package:27487/1" value="1-1825027-1" x="57.912" y="3.302" smashed="yes">
-<attribute name="MF" value="" x="57.912" y="3.302" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="B3F-3100" x="57.912" y="3.302" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="55.372" y="5.842" size="1.27" layer="25" ratio="10"/>
-<attribute name="OC_FARNELL" value="959704" x="57.912" y="3.302" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="36M3582" x="57.912" y="3.302" size="1.778" layer="27" display="off"/>
-<attribute name="POPULARITY" value="0" x="57.912" y="3.302" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="54.229" y="-2.667" size="1.27" layer="27" ratio="10"/>
-</element>
 <element name="U1" library="StarLiteLib" package="UPDUINO3P0" value="UPDUINO3P0" x="36.83" y="38.481" smashed="yes" rot="R90">
 <attribute name="NAME" x="23.114" y="72.009" size="1.778" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="37.719" y="23.241" size="1.778" layer="27" ratio="10" rot="R90"/>
@@ -1843,15 +1817,6 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="43.561" y="11.557" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="POPULARITY" value="38" x="41.91" y="8.255" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="43.561" y="11.303" size="1.27" layer="27" ratio="10" rot="R180"/>
-</element>
-<element name="S3" library="switch-omron" library_urn="urn:adsk.eagle:library:377" package="B3F-31XX" package3d_urn="urn:adsk.eagle:package:27487/1" value="1-1825027-1" x="41.91" y="3.302" smashed="yes">
-<attribute name="MF" value="" x="41.91" y="3.302" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="B3F-3100" x="41.91" y="3.302" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="40.64" y="4.572" size="1.27" layer="25" ratio="10"/>
-<attribute name="OC_FARNELL" value="959704" x="41.91" y="3.302" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="36M3582" x="41.91" y="3.302" size="1.778" layer="27" display="off"/>
-<attribute name="POPULARITY" value="0" x="41.91" y="3.302" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="38.227" y="-2.667" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="S2" library="StarLiteLib" package="DPDT157" value="EG2219" x="26.162" y="4.1275" smashed="yes" rot="R180">
 <attribute name="NAME" x="29.7815" y="9.9695" size="1.27" layer="25" ratio="10" rot="R180"/>
@@ -1868,6 +1833,22 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="POPULARITY" value="48" x="10.16" y="11.43" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="10.16" y="11.43" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="11.7856" y="11.9126" size="0.9906" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="S3" library="StarLiteLib" package="B3F-31XX" package3d_urn="urn:adsk.eagle:package:27487/1" value="1-1825027-1" x="41.91" y="3.302" smashed="yes">
+<attribute name="DIGIKEY" value="450-1658-ND" x="41.91" y="3.302" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="41.91" y="3.302" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="1-1825027-1" x="41.91" y="3.302" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="40.64" y="4.572" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="0" x="41.91" y="3.302" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="38.227" y="-2.667" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="S1" library="StarLiteLib" package="B3F-31XX" package3d_urn="urn:adsk.eagle:package:27487/1" value="1-1825027-1" x="57.912" y="3.302" smashed="yes">
+<attribute name="DIGIKEY" value="450-1658-ND" x="57.912" y="3.302" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="57.912" y="3.302" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="1-1825027-1" x="57.912" y="3.302" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="56.642" y="5.207" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="0" x="57.912" y="3.302" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="54.229" y="-2.667" size="1.27" layer="27" ratio="10"/>
 </element>
 </elements>
 <signals>
@@ -1898,9 +1879,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="DC1" pad="2"/>
 <contactref element="C3" pad="2"/>
 <contactref element="C5" pad="2"/>
-<contactref element="S3" pad="1"/>
 <contactref element="C4" pad="2"/>
-<contactref element="S1" pad="1"/>
 <contactref element="TP7" pad="TP"/>
 <contactref element="TP2" pad="TP"/>
 <contactref element="TP3" pad="TP"/>
@@ -1909,6 +1888,8 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U1" pad="GND2"/>
 <contactref element="U1" pad="GND3"/>
 <contactref element="U1" pad="GND4"/>
+<contactref element="S3" pad="1"/>
+<contactref element="S1" pad="1"/>
 </signal>
 <signal name="VCC">
 <contactref element="U2" pad="14"/>
@@ -2006,9 +1987,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="DISP_SEL_N">
 <contactref element="C4" pad="1"/>
-<contactref element="S1" pad="2"/>
-<wire x1="58.928" y1="10.16" x2="58.928" y2="3.302" width="0.2032" layer="16"/>
-<wire x1="58.928" y1="3.302" x2="60.1726" y2="2.0574" width="0.2032" layer="16"/>
+<wire x1="58.928" y1="3.302" x2="58.928" y2="10.16" width="0.2032" layer="16"/>
 <wire x1="58.928" y1="10.16" x2="54.483" y2="14.605" width="0.2032" layer="16"/>
 <wire x1="52.705" y1="14.605" x2="54.483" y2="14.605" width="0.2032" layer="16"/>
 <contactref element="U1" pad="11"/>
@@ -2016,17 +1995,19 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="47.244" y1="39.751" x2="48.895" y2="38.1" width="0.2032" layer="16"/>
 <wire x1="48.895" y1="38.1" x2="48.895" y2="18.415" width="0.2032" layer="16"/>
 <wire x1="48.895" y1="18.415" x2="52.705" y2="14.605" width="0.2032" layer="16"/>
+<contactref element="S1" pad="2"/>
+<wire x1="60.1726" y1="2.0574" x2="58.928" y2="3.302" width="0.2032" layer="16"/>
 </signal>
 <signal name="BRITE_SEL_N">
 <contactref element="C5" pad="1"/>
-<contactref element="S3" pad="2"/>
-<wire x1="44.1706" y1="2.0574" x2="43.18" y2="3.048" width="0.2032" layer="16"/>
 <wire x1="43.18" y1="3.048" x2="43.18" y2="8.255" width="0.2032" layer="16"/>
 <contactref element="U1" pad="9"/>
 <wire x1="43.18" y1="8.255" x2="46.99" y2="12.065" width="0.2032" layer="16"/>
 <wire x1="46.99" y1="12.065" x2="46.99" y2="36.195" width="0.2032" layer="16"/>
 <wire x1="45.974" y1="37.211" x2="44.45" y2="37.211" width="0.2032" layer="16"/>
 <wire x1="46.99" y1="36.195" x2="45.974" y2="37.211" width="0.2032" layer="16"/>
+<contactref element="S3" pad="2"/>
+<wire x1="44.1706" y1="2.0574" x2="43.18" y2="3.048" width="0.2032" layer="16"/>
 </signal>
 <signal name="BATT_SW">
 <contactref element="DC1" pad="1"/>
