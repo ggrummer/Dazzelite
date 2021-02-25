@@ -1,5 +1,5 @@
 # Dazzelite
-Dazzelite is an easy to build project that uses a ring of tri-color LED lights, controlled by an FPGA, using a few simple instructions, to create different patterns of light. It can be built on a breadboard of in a beautiful case.
+Dazzelite is an easy to build project that uses a ring of tri-color LED lights, controlled by an FPGA, using a few simple instructions, to create different patterns of light. It can be built on a breadboard or in a beautiful case.
 
 A video introduction can be seen at the following link:
 https://vimeo.com/516437596
